@@ -1,0 +1,95 @@
+body{
+    background: linear-gradient(rgba(0,0,0,0.40),rgba(0,0,0,0.40)), url(zakat.jpg);
+    width: 95%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+div.main{
+    width: 400px;
+    margin: 100px auto 0px auto;
+    
+}
+
+div.form-box{
+    background-color: rgba(0,0,0,0.5);
+    width: 380px;
+    height: 650px;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 1px solid rgba(255,255,255,0.3);
+    box-shadow: 2px 2px 15px rgba (0,0,0,0.3);
+    position: relative;
+    margin: 6% auto;
+    color: white;
+
+    padding: 5px;
+   
+ }
+
+ h1{
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    font-family: Calibri;
+    
+ }
+
+ input{
+    padding-top: 5px ;
+    width: 250px;
+    font-size: 35px;
+    margin: -30px 62px;
+    border-radius: 25px;
+    background: transparent;
+    border-width: 3px;
+    text-align: center;
+    color: white;
+    font-family: Calibri;
+    
+}
+
+button{
+    padding-top: 5px ;
+    width: 200px;
+    font-size: 30px;
+    margin: -30px 90px;
+    border-radius: 25px;
+    border-width: 4px;
+    border-color: brown;
+    background: transparent;
+    color: white;
+    font-family: Calibri;
+    scroll-snap-type: none;
+}
+
+
+h2{
+    text-align: center;
+    font-size: 30px;
+    color: #D98430;
+    margin-top: 40px;
+    
+    
+ }
+
+h3{
+    margin-top: 60px;
+    text-align: center;
+    font-size: 35px;
+    color: #D98430;
+ }
+
+ h4{
+    color:white;
+    text-align: center;
+    font-size: 40px;
+    font-family: Calibri;
+    margin-top: -30px;
+ }
+
+ ::placeholder{
+    font-size: 20px;
+   
+   
+ }
